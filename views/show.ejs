@@ -9,8 +9,17 @@
   <link rel="stylesheet" href="/skeleton.css">
 </head>
 <body>
+<h1>
+  <%= lineItem.name %>
+</h1>
 
-  
+<p>Date: <%=lineItem.date %></p>
+<p>Name: <%= lineItem.name %></p>
+<p>From: <%=lineItem.from %></p>
+<p>Amount: <%=lineItem.amount %></p>
+<p>Tags: <%=lineItem.tags %></p>
+
+<button>Back</button>
   
 </body>
 </html>
