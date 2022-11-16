@@ -1,4 +1,4 @@
-const budget = [
+let budget = [
   {
     date: 'April 1',
     name: 'Income',
@@ -69,6 +69,7 @@ const budget = [
     amount: -7,
     tags: ['pets']
   }
+  
 ]
 
 module.exports = budget
