@@ -12,9 +12,21 @@
 
 <body>
   <div class="container">
-    <h1>Budgtr ALL</h1>
-  </div>
-
+    <h1>Budgtr</h1>
+    <a href="/budget/new">
+      <button>Add New Item</button>
+    </a>
+  </div >
+  <!-- <div class="sum">
+  <% let bankAccount=[]; %>
+    <% for (let j=0; j < budget.length; j+=1){%>
+      <% bankAccount.push(budget[j].amount) %>
+        <% } %>
+          <% let sum=bankAccount.reduce((accumulator, currentValue)=> { return accumulator +
+            currentValue; }, 0); %>
+          <h3> <%=sum %> </h3>
+          <% if(sum < 0); { %>
+      </div> -->
   <table>
     <% for(let i=0; i < budget.length; i++) { %>
       <tr>
